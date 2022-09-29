@@ -2,7 +2,7 @@
 python scripts used to get phase diagrams and critical points of EB1 mutants using RPA
 
 # RPA theory and algorizm
-The key codes to realize random phase approximation is forked from Lin and Chan's works:
+The key codes to realize random phase approximation is forked from Lin and Chan's works so make sure you cite these :
 
 Y.-H. Lin, J. D. Forman-Kay, and H. S. Chan, Biochemistry 57, 2499–2508 (2018) Y.-H. Lin, J. D. Forman-Kay, and H. S. Chan, Phys. Rev. Lett. 117, 178101 (2016)
 Y.-H. Lin, J. Song, J. D. Forman-Kay, and H. S. Chan, J. Mol. Liq. 228, 176–193 (2017)
@@ -13,7 +13,7 @@ Y.-H. Lin, J. P. Brady, H. S. Chan, and K. Ghosh, J. Chem. Phys. 152, 045102 (20
 #modeling of EB1 (seq_list.py)
 ctail and linker are connected by a short polyQ peptide representing the steric effect of c-coil region.
 
-# Drawing
+# Drawing (critical_scatter.py)
 analysis and plotting scripts require following packages that you should install:
   -pandas
   -matplotlib
